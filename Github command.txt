@@ -1,0 +1,55 @@
+basic Command of git for using the local system [after Update]
+first Comman is git clone [link of HTTP] [genrate repo folder]
+1.git status
+	-for the check the status
+2.git add 
+	-it is used to add file update. [like sy:git add filename or .[using dot to add all over floder files ]]
+3.git commit
+	-it is used for commit the file [sy: git commit -m "what's update you write here" ]
+4.push 
+	-push our file on github
+[sy: git push origin main]
+
+**Work flow [local git]
+	1.create git repo
+	2.clone
+	3.add
+	4.commit
+	5.push
+
+**Branch Commands
+	git branch (to check branch)
+	git branch -m main (to rename branch)
+	git checkout <-branch name-> (to navigate)
+	git checkout -b <-new branch name-> (to creact a new branch)
+	git branch -d <-branch name-> (To Delete branch)
+
+**Meging Code
+	way 1
+	-git diff <-branch name-> (To compare commits,branches,files &more )
+	-git merge <-branch name-> (To merge 2 branches)
+	way 2
+	create a PR (pull Request) 
+**Resolving Merge Conflicts
+	-An event that takes place when git is unable to automatically resolve differences in code between two commits.
+
+** Undoing Changes
+	case 1 : staged Changes (you have delete some line code and add this file but don't used to commit command).
+	git reset <-file name->
+	git reset 
+	
+	Case 2 : Commit changes (for one Commit)
+	git reset  HEAD~1
+
+	case 3: commit changes (for many commits)
+	git reset <-commit hash->
+	git reset --hard <-commit has->
+
+** frok
+	A frok is a new repository that shares code and visibility settings with the original "upstream" repository.
+	fork is a rough copy.
+ 		
+
+
+
+
