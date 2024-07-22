@@ -15,6 +15,7 @@ console.log(accountId);
     because of issue in block scope and function scope
 
  */
-console.table([accountId,accountEmail,accountPassword,accountCity,accountstate]);
+// print in the table form 
+ console.table([accountId,accountEmail,accountPassword,accountCity,accountstate]);
 
 
