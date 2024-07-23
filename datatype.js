@@ -18,11 +18,33 @@ let logIn =true; //this data type is boolean
 
     
  */
-// non primitive data types
-// object
 
 console.log(typeof(fname));//string
 console.log(typeof(roll_no));//number
 console.log(typeof(address));//undefined 
 console.log(typeof(null));//object
 console.log(typeof(logIn));//Boolean
+
+// Symbol 
+    const id =Symbol('123');
+    const anotheId = Symbol('123');
+    console.log(id == anotheId); //false
+
+// non primitive data types (Reference types )
+// objects , Array , Function 
+    // Array Declaration
+    let arryName =["chetan","nikhil","jagdish","ravi"]
+    console.log(arryName);
+    // Function Declaration
+    let myfun = function(){
+        console.log("Hello chetan");
+    } 
+    myfun()
+    // Objects
+    let objects ={
+        fname : "chetan",
+        lname : "Patil",
+        sId :644   
+    }
+    console.log(objects.fname,objects.lname,objects.sId);
+    
