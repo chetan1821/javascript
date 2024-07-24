@@ -29,4 +29,4 @@ console.log(Math.floor(Math.random()*10)+1); // 10.450233864378713
 // Example of random value
 const min =10
 const max =20
-console.log(Math.floor(Math.random() * (max-min+1)+min));
+console.log(Math.floor(Math.random() * (max-min+1)+min)); //[here range is 10 to 20] return random
