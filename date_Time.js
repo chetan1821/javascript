@@ -14,9 +14,9 @@ console.log(Math.floor (Date.now()/1000));
 
 // similer method 
 /**
+ * let newdate = new Date()
+console.log(newdate.getDay());
  getMonth
  getYear
 
  */
-let newdate = new Date()
-console.log(newdate.getDay());
