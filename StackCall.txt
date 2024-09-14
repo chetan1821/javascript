@@ -1,0 +1,11 @@
+javaScript Execution context
+    -Global Execution context
+    -Function Execution context
+    -eval Execution context
+
+ Execution phase
+    -Global Execution (this)
+    -Memory creation phase (variable's)
+    -Execution phase
+
+
